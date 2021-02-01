@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "82138091405",
+    "firebase_url": "https://learnandgrow-82f0b-default-rtdb.firebaseio.com",
+    "project_id": "learnandgrow-82f0b",
+    "storage_bucket": "learnandgrow-82f0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82138091405:android:61c94b52e4e21c471f37c4",
+        "android_client_info": {
+          "package_name": "com.LearnAndGrow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82138091405-q8jrbspv4thrj0j4idhj9di4q66cjrdn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.LearnAndGrow",
+            "certificate_hash": "9cab2cd7c6e9e266ddf8058b47c23254beb91928"
+          }
+        },
+        {
+          "client_id": "82138091405-omm6qaj4hpk5qfvm2ahp0rc3965d205s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARnuFqwADqfyUC1grGZPpHu4g3a0QKiw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82138091405-omm6qaj4hpk5qfvm2ahp0rc3965d205s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "82138091405-3mpo3agjerf6gh9i905n6777abrps01n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.LearnAndGrow"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82138091405:android:dda817ab3b1ec1661f37c4",
+        "android_client_info": {
+          "package_name": "com.learn_and_grow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82138091405-bh0hcbkbhsnnru2le6cngc5kk8j0i253.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learn_and_grow",
+            "certificate_hash": "9cab2cd7c6e9e266ddf8058b47c23254beb91928"
+          }
+        },
+        {
+          "client_id": "82138091405-omm6qaj4hpk5qfvm2ahp0rc3965d205s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARnuFqwADqfyUC1grGZPpHu4g3a0QKiw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82138091405-omm6qaj4hpk5qfvm2ahp0rc3965d205s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "82138091405-3mpo3agjerf6gh9i905n6777abrps01n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.LearnAndGrow"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

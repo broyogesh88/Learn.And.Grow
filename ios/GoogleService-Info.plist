@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>82138091405-4ecd44m6os3q3039dkmvdrd0ejft8epu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.82138091405-4ecd44m6os3q3039dkmvdrd0ejft8epu</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>82138091405-bh0hcbkbhsnnru2le6cngc5kk8j0i253.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBi0nppA7QZj7rjulsmj5p8G5jFLs0Ljl8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>82138091405</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.Learn-and-Grow</string>
+	<key>PROJECT_ID</key>
+	<string>learnandgrow-82f0b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>learnandgrow-82f0b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:82138091405:ios:2be73aed01a10c101f37c4</string>
+	<key>DATABASE_URL</key>
+	<string>https://learnandgrow-82f0b-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
