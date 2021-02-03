@@ -11,7 +11,7 @@ export default class Signup extends React.Component {
 
     state = {
         imagePath: require("./default.png"),
-        imageName: '',
+        imageName : '',
         isLoading: false,
         status: '',
         isValid: true,
@@ -93,7 +93,7 @@ export default class Signup extends React.Component {
                 let path = this.getPlatformPath(response).value;
                 let fileName = this.getFileName(response.fileName, path);
                 this.setState({ imagePath: path });
-                this.setState({imageName: fileName});
+                this.setState({imageName, fileName});
             }
         });
     };

@@ -29,7 +29,17 @@ function Login(props) {
     };
 
     const AdminSection = () => {
-        props.navigation.push('Product')
+        props.navigation.push('THome')
+    };
+
+    const forgotPassword = () => {
+        var auth = firebase.auth();
+        var emailAddress = email;
+        auth.sendPasswordResetEmail(emailAddress).then(function () {
+            Alert.alert("A Password reset link has been sent to your email");
+        }).catch(function (error) {
+            Alert.alert(error.message);
+        });
     };
 
 
@@ -54,7 +64,7 @@ function Login(props) {
     return (
         <View style={styles.container}>
 
-            <Text style={{ color: 'blue', paddingLeft: "80%"}} onPress={() => AdminSection()}>Admin</Text>
+            <Text style={{ color: 'blue', paddingLeft: "80%" }} onPress={() => AdminSection()}>Teacher</Text>
 
             <Text style={[styles.title, styles.leftTitle]}>Sign In</Text>
             <View style={styles.InputContainer}>
@@ -78,13 +88,17 @@ function Login(props) {
                     underlineColorAndroid="transparent"
                 />
             </View>
+            <View style={{ height: '2%' }}></View>
+            <Text style={{ color: 'blue', paddingRight: '50%' }} onPress={() => forgotPassword()}>Forgot Password?</Text>
             <View style={{ height: '5%' }}></View>
+
+
 
             <TouchableOpacity onPress={() => handlePress()} style={styles.appButtonContainer}>
                 <Text style={styles.appButtonText}>Login</Text>
             </TouchableOpacity>
 
-            
+
 
 
             <Text style={styles.or}>OR</Text>
